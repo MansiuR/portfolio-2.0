@@ -14,4 +14,4 @@ If you like my work, give it a star⭐.
 
 ## 📄 License
 
-This project is open source and available under the MIT License.
+This project is open source and available under the [MIT License](./LICENSE).
