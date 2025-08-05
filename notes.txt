@@ -1,0 +1,9 @@
+Work to be required 
+
+1. Custom Cursor (components)
+2. Footer (components)
+3. Banner (app/components)
+4. data.ts  (components/lib)
+5. pages.tsx main file where routing is done
+6. .next/cache/images 
+7. layout.ts  (app) main file
