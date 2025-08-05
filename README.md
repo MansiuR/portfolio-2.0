@@ -2,19 +2,16 @@
 
 Welcome to the source code of my personal portfolio website!
 
-## 🛠 Getting Started
+## 📩 Contribute
 
-To run this project locally:
+Have suggestions or found a bug?
+Feel free to open an issue or pull request!
+If you like my work, give it a star⭐.
 
-bash
-Copy
-Edit
+## Credit
 
-# Install dependencies
+\_This readme is inspired from [me.toinfinite.dev](https://www.me.toinfinite.dev/)
 
-pnpm install
+## 📄 License
 
-# Start the development server
-
-pnpm dev
-Then open http://localhost:3000 in your browser.
+This project is open source and available under the MIT License.
