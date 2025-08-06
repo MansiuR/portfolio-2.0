@@ -1,9 +1,16 @@
 Work to be required 
 
-1. Custom Cursor (components)
-2. Footer (components)
-3. Banner (app/components)
-4. data.ts  (components/lib)
+1. Custom Cursor (components)  ✅
+2. Footer (components)  ✅
+3. Banner (app/components)  ✅
+
+
+4. data.ts  (components/lib) for changing projcts
+   public/projcts/images & long & thumbnail for changing the images
+
+
 5. pages.tsx main file where routing is done
-6. .next/cache/images 
-7. layout.ts  (app) main file
+6. .next/cache/images  ✅
+7. layout.ts  (app) main file  ✅
+
+

@@ -146,7 +146,7 @@ export const PROJECTS: IProject[] = [
         thumbnail: '/projects/thumbnail/mti-electronics.webp',
         longThumbnail: '/projects/long/mti-electronics.webp',
         images: [
-            '/projects/images/mti-electronics-1.webp',
+            '/projects/images/mti-electronics-1.JPG',
             '/projects/images/mti-electronics-2.webp',
         ],
     },

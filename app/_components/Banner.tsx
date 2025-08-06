@@ -51,8 +51,8 @@ const Banner = () => {
                             AADIT
                         </span>
                         . A creative Frontend Developer with 0.5 years of
-                        experience in building high-performance, scalable, and
-                        responsive web solutions.
+                        experience in building high-performance and responsive
+                        web solutions.
                     </p>
                     <Button
                         href={GENERAL_INFO.resumeUrl}

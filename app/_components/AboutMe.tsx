@@ -55,9 +55,9 @@ const AboutMe = () => {
         <section className="pb-section" id="about-me">
             <div className="container" ref={container}>
                 <h2 className="text-4xl md:text-6xl font-thin mb-20 slide-up-and-fade">
-                    I believe in a user centered design approach, ensuring that
-                    every project I work on is tailored to meet the specific
-                    needs of its users.
+                    I believe in a user-centered design approach, ensuring that
+                    every project I work on aligns with my specifications while
+                    prioritizing the needs and satisfaction of the end user.
                 </h2>
 
                 <p className="pb-3 border-b text-muted-foreground slide-up-and-fade">
@@ -74,9 +74,9 @@ const AboutMe = () => {
                         <div className="text-lg text-muted-foreground max-w-[450px]">
                             <p className="slide-up-and-fade">
                                 I&apos;m a frontend web developer dedicated to
-                                turning ideas into creative solutions. I
-                                specialize in creating seamless and intuitive
-                                user experiences.
+                                turning ideas into creative solutions. I want to
+                                be specialized in creating seamless and
+                                intuitive user experiences.
                             </p>
                             <p className="mt-3 slide-up-and-fade">
                                 My approach focuses on creating scalable,
