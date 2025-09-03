@@ -47,14 +47,14 @@ export const MY_STACK = {
             name: 'Tailwind CSS',
             icon: '/logo/tailwind.png',
         },
-        // {
-        //     name: 'GSAP',
-        //     icon: '/logo/gsap.png',
-        // },
-        // {
-        //     name: 'Framer Motion',
-        //     icon: '/logo/framer-motion.png',
-        // },
+        {
+            name: 'GSAP',
+            icon: '/logo/gsap.png',
+        },
+        {
+            name: 'Framer Motion',
+            icon: '/logo/framer-motion.png',
+        },
         // {
         //     name: 'Sass',
         //     icon: '/logo/sass.png',
