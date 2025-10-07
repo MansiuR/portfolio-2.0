@@ -55,7 +55,7 @@ const Preloader = () => {
 
             <p className="name-text flex text-[20vw] lg:text-[200px] font-anton text-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 leading-none overflow-hidden">
                 <span className="inline-block translate-y-full">I</span>
-                <span className="inline-block translate-y-full">'</span>
+                <span className="inline-block translate-y-full">'&apos;</span>
                 <span className="inline-block translate-y-full">M</span>
                 <span className="inline-block translate-y-full">&nbsp;</span>
                 <span className="inline-block translate-y-full">A</span>
