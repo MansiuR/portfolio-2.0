@@ -55,10 +55,10 @@ export const MY_STACK = {
             name: 'Framer Motion',
             icon: '/logo/framer-motion.png',
         },
-        // {
-        //     name: 'Sass',
-        //     icon: '/logo/sass.png',
-        // },
+        {
+            name: 'Sass',
+            icon: '/logo/sass.png',
+        },
         {
             name: 'Bootstrap',
             icon: '/logo/bootstrap.svg',
@@ -98,56 +98,51 @@ export const MY_STACK = {
 
 export const PROJECTS: IProject[] = [
     {
-        title: 'MTI Electronics',
+        title: 'Animated Website',
         slug: 'mti-electronics',
-        liveUrl: 'https://mti-electronics.vercel.app/',
+        liveUrl: 'https://k-72-clone.onrender.com/',
         year: 2025,
         description: `
-      A complete agency portfolio platform built for MTI Electronics to showcase their services, blog content, and product offerings. <br/> <br/>
-      
+      Developed a responsive animated website clone inspired by K72.ca, using React.js, GSAP, and Tailwind CSS to replicate modern UI transitions and agency-style visuals. <br/> <br/>
+
       Key Features:<br/>
-      <ul>
-        <li>🛠️ Service Display System: Interactive service showcase with synchronized sliders</li>
-        <li>✍️ Blog Management: SEO-friendly blog with categorization and search</li>
-        <li>🛒 Product Catalog: Organized product display with filtering capabilities</li>
-        <li>📱 Fully Responsive: Optimized for all device sizes</li>
-        <li>⚡ Fast Performance: Optimized Next.js frontend with ISR (Incremental Static Regeneration)</li>
-      </ul><br/>
-      
+<ul>
+  <li>🎨 Modern Design: Pixel-perfect layout inspired by K72.ca with bold typography and minimal aesthetics</li>
+  <li>🌀 Smooth Animations: Subtle motion effects and transitions created using GSAP for engaging visuals</li>
+  <li>🖼️ Interactive Image Sections: Dynamic project and team visuals with hover and fade effects</li>
+  <li>📱 Fully Responsive: Optimized layouts for desktop, tablet, and mobile viewing</li>
+  <li>⚡ Fast Performance: Lightweight React structure with optimized assets for quick loading</li>
+</ul><br/>
+
+
       Technical Highlights:
-      <ul>
-        <li>Implemented complex slider synchronization logic using Swiper.js</li>
-        <li>Customized Payload CMS admin panel for intuitive content management</li>
-        <li>Developed reusable UI components with shadcn for design consistency</li>
-        <li>Configured efficient data fetching strategies in Next.js</li>
-      </ul>
+<ul>
+  <li>Utilized GSAP for smooth, timeline-based animations and element transitions</li>
+  <li>Developed modular and reusable UI components using React and Tailwind CSS</li>
+  <li>Optimized image assets and layout structure for better performance</li>
+  <li>Maintained clean, scalable code architecture for easy future updates</li>
+</ul>
+
       `,
         role: `
-      Full-Stack Developer <br/>
-      Owned the entire development lifecycle:
-      <ul>
-        <li>✅ Backend: Configured Payload CMS with custom collections for services, blogs, and products</li>
-        <li>🎨 Frontend: Built all UI components using Tailwind CSS and shadcn</li>
-        <li>🔄 State Management: Implemented client-side data fetching and caching</li>
-        <li>🖥️ CMS Customization: Created admin interfaces for content editors</li>
-        <li>🚀 Deployment: Set up CI/CD pipeline for Vercel hosting</li>
-        <li>🧩 Third-Party Integration: Added Swiper.js for interactive sliders</li>
-      </ul>
+      Frontend Developer <br/>
+Owned the entire frontend development process:
+<ul>
+  <li>🎨 Designed and built all UI components using React.js and Tailwind CSS</li>
+  <li>🌀 Implemented engaging animations and transitions with GSAP</li>
+  <li>📱 Ensured fully responsive layouts across desktop, tablet, and mobile</li>
+  <li>⚡ Optimized performance by minimizing re-renders and asset size</li>
+  <li>🚀 Deployed the project seamlessly on Render for live demonstration</li>
+</ul>
+
       `,
-        techStack: [
-            'Next.js',
-            'Payload CMS',
-            'Tailwind CSS',
-            'shadcn',
-            'Swiper.js',
-            'React Hook Form',
-            'Vercel',
-        ],
-        thumbnail: '/projects/thumbnail/mti-electronics.webp',
-        longThumbnail: '/projects/long/mti-electronics.webp',
+        techStack: ['React.js', 'Tailwind CSS', 'GSAP', 'Render'],
+        thumbnail: '/projects/thumbnail/k72.png',
+        longThumbnail: '/projects/long/k72.png',
         images: [
-            '/projects/images/mti-electronics-1.JPG',
-            '/projects/images/mti-electronics-2.webp',
+            '/projects/images/k72-1.png',
+            '/projects/images/k72-2.png',
+            '/projects/images/k72-3.png',
         ],
     },
     {
