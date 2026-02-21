@@ -10,7 +10,7 @@ If you like my work, give it a star⭐.
 
 ## Credit
 
-\_This readme is inspired from [me.toinfinite.dev](https://www.me.toinfinite.dev/)
+This readme is inspired by [me.toinfinite.dev](https://www.tajmirul.site/)
 
 ## 📄 License
 
