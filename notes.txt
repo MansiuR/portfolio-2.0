@@ -1,4 +1,4 @@
-Work to be required 
+Work to be required
 
 1. Custom Cursor (components)  ✅
 2. Footer (components)  ✅
@@ -12,5 +12,31 @@ Work to be required
 5. pages.tsx main file where routing is done
 6. .next/cache/images  ✅
 7. layout.ts  (app) main file  ✅
+
+
+________________________________________________________________________________________________________________
+Project File Structure Overview
+
+/app/projects/layout.tsx
+   layout.ts - Root layout configuration, global styles, metadata, and provider setup
+
+/app/components
+   Banner.tsx - Hero section displaying main title, subtitle, and CTA buttons
+
+/components
+   CustomCursor.tsx - Custom mouse cursor component with animations
+   Footer.tsx - Footer section with links, social media, and copyright info
+
+/components/lib
+   data.ts - Central data file containing projects array with titles, descriptions, links, and image paths
+
+/public/projects
+   /images - Full-size project showcase images
+   /long - Wide format images for detailed views
+   /thumbnail - Small preview images for project cards
+
+/pages.tsx - Main routing logic, page transitions, and navigation setup
+
+/.next/cache/images - Next.js optimized image cache (auto-generated)
 
 
