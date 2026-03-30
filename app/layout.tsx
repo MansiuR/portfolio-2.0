@@ -28,8 +28,8 @@ const robotoFlex = Roboto_Flex({
 });
 
 export const metadata: Metadata = {
-    title: 'Portfolio - Aadit Yadav',
-    description: 'Personal portfolio of Aadit Yadav',
+    title: 'Portfolio - Mansi U Raikar',
+    description: 'Personal portfolio of Mansi U Raikar',
 };
 
 export default function RootLayout({
@@ -41,7 +41,7 @@ export default function RootLayout({
         <html lang="en">
             <head>
                 {/* ✅ Primary SVG Favicon */}
-                <link rel="icon" href="/favicon2.svg" type="image/svg+xml" />
+                <link rel="icon" href="/favicon.jpg" type="image/svg+xml" />
 
                 {/* ✅ Fallback for older browsers */}
                 <link

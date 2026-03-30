@@ -32,11 +32,11 @@ const Footer = async () => {
 
                 <div className="">
                     <a
-                        href="https://github.com/Aadit-7/Portfolio-2.0"
+                        href="https://github.com/MansiuR"
                         target="_blank"
                         className="leading-none text-muted-foreground hover:underline hover:text-white"
                     >
-                        Design & built by Aadit Yadav
+                        Design & built by Mansi U Raikar
                         <div className="flex items-center justify-center gap-5 pt-1">
                             <span className="flex items-center gap-2">
                                 <Star size={18} /> {stargazers_count}

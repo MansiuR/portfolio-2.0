@@ -1,22 +1,21 @@
 import { IProject } from '@/types';
 
 export const GENERAL_INFO = {
-    email: 'aadityadav121@gmail.com',
+    email: 'mansiraikarhrr@gmail.com',
 
     emailSubject: "Let's collaborate on a project",
-    emailBody: 'Hi Aadit, I am reaching out to you because...',
+    emailBody: 'Hi Mansi, I am reaching out to you because...',
 
-    oldPortfolio:
-        'https://portfolio-amber-chi-76.vercel.app/?vercelToolbarCode=ATS8wZvC78Ukppn',
+    oldPortfolio: 'https://mansi-raikar.vercel.app/',
 
     resumeUrl: '/resume.pdf',
 };
 
 export const SOCIAL_LINKS = [
-    { name: 'github', url: 'https://github.com/Aadit-7' },
+    { name: 'github', url: 'https://github.com/MansiuR' },
     {
         name: 'linkedin',
-        url: 'https://www.linkedin.com/in/aadit-yadav-331b5317b/',
+        url: 'https://www.linkedin.com/in/mansiraikar/',
     },
     { name: 'Old Version', url: GENERAL_INFO.oldPortfolio },
 ];
@@ -98,26 +97,37 @@ export const MY_STACK = {
 
 export const PROJECTS: IProject[] = [
     {
-        title: 'Animated Website',
-        slug: 'mti-electronics',
-        liveUrl: 'https://k-72-clone.onrender.com/',
+        title: ' AI Job Prep Platform',
+        slug: 'interview-prep',
+        liveUrl: '',
         year: 2025,
         description: `
-      Developed a responsive animated website clone inspired by K72.ca, using React.js, GSAP, and Tailwind CSS to replicate modern UI transitions and agency-style visuals. <br/> <br/>
+     Developed a production-ready full-stack Gen AI application on the MERN stack that analyzes resumes
+      against job descriptions, identifies skill gaps, generates interview questions, and produces
+      ATS-optimized resumes — architected with a layered service–controller–model backend, prompt
+      chaining, structured JSON output validation, and secure token management. <br/> <br/>
 
       Key Features:<br/>
 <ul>
-  <li>🎨 Modern Design: Pixel-perfect layout inspired by K72.ca with bold typography and minimal aesthetics</li>
-  <li>🌀 Smooth Animations: Subtle motion effects and transitions created using GSAP for engaging visuals</li>
-  <li>🖼️ Interactive Image Sections: Dynamic project and team visuals with hover and fade effects</li>
-  <li>📱 Fully Responsive: Optimized layouts for desktop, tablet, and mobile viewing</li>
-  <li>⚡ Fast Performance: Lightweight React structure with optimized assets for quick loading</li>
+  <li>🎨 Modern Design: Designed a layered backend architecture (service–controller–model) with Express.js, handling
+    file uploads via Multer and schema validation via Zod.</li>
+  <li>🌀 Smooth Animations: Built dynamic React frontend with Context API and custom hooks for managing multi-step AI
+output displays (skill gaps, prep plans, interview questions).
+</li>
+  <li>Integrated Google Gemini API with prompt chaining for structured JSON output across resume
+  parsing, skill gap analysis, question generation, and ATS optimization</li>
+  <li>Implemented JWT-based authentication with token blacklisting to support secure logout and
+refresh token workflows.
+</li>
+  <li>Developed PDF generation pipeline using Puppeteer for downloadable ATS-optimized
+resumes.</li>
 </ul><br/>
 
 
       Technical Highlights:
 <ul>
-  <li>Utilized GSAP for smooth, timeline-based animations and element transitions</li>
+  <li>Utilized  React Router,Context API, Axios, Node.js, Express.js, MongoDB Atlas,
+Mongoose, Multer, Zod, JWT (with blacklisting), Google Gemini API, Puppeteer, CORS Middleware.</li>
   <li>Developed modular and reusable UI components using React and Tailwind CSS</li>
   <li>Optimized image assets and layout structure for better performance</li>
   <li>Maintained clean, scalable code architecture for easy future updates</li>
@@ -125,59 +135,28 @@ export const PROJECTS: IProject[] = [
 
       `,
         role: `
-      Frontend Developer <br/>
-Owned the entire frontend development process:
+      Full Stack MERN Developer <br/>
+Owned the entire Backend & frontend development process:
 <ul>
-  <li>🎨 Designed and built all UI components using React.js and Tailwind CSS</li>
-  <li>🌀 Implemented engaging animations and transitions with GSAP</li>
-  <li>📱 Ensured fully responsive layouts across desktop, tablet, and mobile</li>
+  <li>🎨 Designed and built all UI components using SCSS</li>
+  <li>📱 Ensured fully responsive layouts across desktop</li>
   <li>⚡ Optimized performance by minimizing re-renders and asset size</li>
   <li>🚀 Deployed the project seamlessly on Render for live demonstration</li>
 </ul>
 
       `,
-        techStack: ['React.js', 'Tailwind CSS', 'GSAP', 'Render'],
-        thumbnail: '/projects/thumbnail/k72.png',
-        longThumbnail: '/projects/long/k72.png',
+        techStack: ['SCSS', 'CSS', 'Node.js', 'Express.js', 'Render'],
+        thumbnail: '/projects/thumbnail/interview.png',
+        longThumbnail: '/projects/long/interview.png',
         images: [
-            '/projects/images/k72-1.png',
-            '/projects/images/k72-2.png',
-            '/projects/images/k72-3.png',
+            '/projects/images/interview-1.png',
+            '/projects/images/interview-2.png',
+            '/projects/images/interview-3.png',
         ],
     },
     {
-        title: 'Epikcart',
-        slug: 'epikcart',
-        techStack: [
-            'React',
-            'Redux',
-            'React i18n',
-            'Tailwind CSS',
-            'Framer Motion',
-            'debouncing',
-            'Api Integration',
-        ],
-        thumbnail: '/projects/thumbnail/epikcart.jpg',
-        longThumbnail: '/projects/long/epikcart.jpg',
-        images: [
-            '/projects/images/epikcart-1.png',
-            '/projects/images/epikcart-2.png',
-            '/projects/images/epikcart-3.png',
-            '/projects/images/epikcart-4.png',
-            '/projects/images/epikcart-5.png',
-        ],
-        liveUrl: 'https://demo.epikcart.siphertech.com/',
-        year: 2023,
-        description: `Epikcart is a feature-rich, scalable e-commerce platform tailored for large businesses. It features dynamic product filtering, multi-language support with RTL, advanced inventory management, order tracking, and refund systems, offering a comprehensive solution for multi-vendor operations.`,
-        role: `As the frontend developer in a team of five, I: <br/>
-        - Built the frontend from scratch using React, Redux, RTK Query, and Tailwind CSS.<br/>
-        - Developed dynamic filtering logic for the product search page with admin-configurable parameters.<br/>
-        - Integrated multi-language support with React i18n, including RTL handling.<br/>
-        - Delivered a responsive, user-friendly interface in collaboration with the UI/UX designer.`,
-    },
-    {
-        title: 'Resume Roaster',
-        slug: 'resume-roaster',
+        title: 'Food-Reel',
+        slug: 'food-reel',
         techStack: [
             'GPT-4',
             'Next.js',
@@ -185,92 +164,114 @@ Owned the entire frontend development process:
             'Prisma',
             'Tailwind CSS',
         ],
-        thumbnail: '/projects/thumbnail/resume-roaster.jpg',
-        longThumbnail: '/projects/long/resume-roaster.jpg',
+        thumbnail: '/projects/thumbnail/food-reel.png',
+        longThumbnail: '/projects/long/food-reel.png',
         images: [
-            '/projects/images/resume-roaster-1.png',
-            '/projects/images/resume-roaster-2.png',
-            '/projects/images/resume-roaster-3.png',
+            '/projects/images/food-reel-1.png',
+            '/projects/images/food-reel-3.png',
+            '/projects/images/food-reel-5.png',
         ],
-        liveUrl: 'https://resume-roaster.vercel.app/',
-        year: 2023,
+        liveUrl: 'https://food-reel-mng5.onrender.com',
+        year: 2024,
         description:
-            'Resume Roaster is a web application designed to provide tailored resume feedback and professional writing services. Built with Next.js, PostgreSQL, Prisma, and Tailwind CSS, it integrates GPT-4 for AI-powered recommendations. The platform also includes peer-to-peer reviews with a points-based system, fostering a collaborative and engaging experience. Targeting freshers, experienced professionals, and programmers, it helps optimize resumes for job-specific success.',
-        role: `As the sole developer and business owner, I:<br/>
-        - Designed and developed the platform end-to-end using Next.js, PostgreSQL, Prisma, and Tailwind CSS.<br/>
-        - Integrated GPT-4 for AI-driven feedback and insights.<br/>
-        - Implemented complex SQL queries, including one to identify the top two resumes based on user points.`,
+            'A modern food discovery platform inspired by Zomato, combining traditional restaurant browsing with an immersive reels-style video feed. The application enables users to explore restaurants through short-form video content while providing restaurant partners with a dedicated dashboard to manage menus and promotional media, delivering a highly engaging and scalable food discovery experience.',
+        role: `As a full-stack developer, I:<br/>
+        - Architected a dual-role backend system (route–controller–service–model) using Express.js and MongoDB to manage separate workflows for users and restaurant partners.<br/>
+        - Built a scalable media upload pipeline using Multer and ImageKit for handling video and image content with cloud CDN delivery.br/>
+        - Developed a mobile-first React frontend featuring an infinite scroll-snapping reels feed for an engaging discovery experience.<br/>
+        -Implemented secure authentication and authorization using JWT with HTTP-only cookies, bcryptjs hashing, and custom middleware for protected routes.<br/>
+        -Designed real-time engagement features (likes, saves, bookmarks) using MongoDB atomic operations for optimized performance.`,
     },
     {
-        title: 'Real Estate',
-        slug: 'property-pro',
+        title: 'AI-Application',
+        slug: 'Ai-App',
         techStack: [
             'React.js',
-            'Redux',
+            'Tavily',
             'Tailwind CSS',
-            'React i18n',
-            'Framer Motion',
+            'Express.js',
+            'Node.js',
         ],
-        thumbnail: '/projects/thumbnail/property-pro.jpg',
-        longThumbnail: '/projects/long/property-pro.jpg',
+        thumbnail: '/projects/thumbnail/ai-app.png',
+        longThumbnail: '/projects/long/ai-app.png',
         images: [
-            '/projects/images/property-pro-1.png',
-            '/projects/images/property-pro-2.png',
-            '/projects/images/property-pro-3.png',
+            '/projects/images/ai-app-1.png',
+            '/projects/images/ai-app-2.png',
+            '/projects/images/ai-app-3.png',
         ],
-        liveUrl: 'https://demo.propertypro.siphertech.com/',
+        liveUrl: 'https://ai-app-vrh7.onrender.com',
         year: 2023,
         description:
-            'PropertyPro is a real estate management platform offering users a seamless experience to explore, manage, and view property listings. The application emphasizes accessibility and responsive design, ensuring a smooth interface across devices.',
-        role: `As the frontend developer, I:<br/>
-        - Built the frontend using React, Redux, RTK Query, Framer Motion, and Tailwind CSS.<br/>
-        - Integrated dynamic state management for efficient handling of property data.<br/>
-        - Implemented multi-language support with React i18n to cater to diverse audiences.<br/>
-        - Enhanced user interaction with animations and transitions using Framer Motion.`,
+            'An AI-powered search and answer engine inspired by Perplexity, designed to provide real-time, context-aware responses with structured outputs. The platform enables users to ask questions, receive concise AI-generated answers, and explore information interactively, delivering a fast and intelligent alternative to traditional search systems.',
+        role: `As the full-stack developer, I:<br/>
+        - Built a production-ready MERN stack application enabling real-time AI-powered query handling and response generation.<br/>
+        - Integrated Generative AI APIs with prompt engineering techniques to deliver accurate, structured, and context-aware answers.<br/>
+        - Designed a scalable backend architecture (service–controller–model) for handling user queries, sessions, and AI responses efficiently.<br/>
+        - Developed a dynamic React frontend with smooth UX for conversational search and interactive result exploration.<br/>
+        -Implemented secure authentication and API handling, ensuring reliable and safe user interactions.`,
     },
     {
-        title: 'Consulting Finance',
-        slug: 'crenotive',
-        techStack: ['HTML', 'CSS & SCSS', 'Javascript', 'Bootstrap'],
-        thumbnail: '/projects/thumbnail/consulting-finance.jpg',
-        longThumbnail: '/projects/long/consulting-finance.jpg',
+        title: 'Mac-Os',
+        slug: 'mac-os',
+        techStack: ['HTML', 'CSS & SCSS', 'Javascript'],
+        thumbnail: '/projects/thumbnail/mac-os.png',
+        longThumbnail: '/projects/long/mac-os.png',
         images: [
-            '/projects/images/consulting-finance-1.png',
-            '/projects/images/consulting-finance-2.png',
-            '/projects/images/consulting-finance-3.png',
+            '/projects/images/mac-os-1.png',
+            '/projects/images/mac-os-2.png',
+            '/projects/images/mac-os-3.png',
         ],
-        sourceCode: 'https://github.com/Tajmirul/crenotive',
-        liveUrl: 'https://crenotive.netlify.app/',
-        year: 2023,
+        sourceCode: 'https://github.com/MansiuR/Mac-os',
+        liveUrl: 'https://mac-os-peach.vercel.app/',
+        year: 2024,
         description:
-            'I developed Crenotive, a portfolio website using Html, SASS, and jQuery to showcase services and expertise. The design focuses on responsive user experience and effective presentation of professional achievements.',
-        role: ``,
+            'A macOS-inspired interactive system interface built using React, replicating core desktop functionalities such as a dock, window management, and smooth UI interactions. The project focuses on delivering a realistic desktop-like experience within the browser with responsive design and fluid animations.',
+        role: `As the Frontend Developer, I:<br/>
+        -Designed and developed a macOS-style UI system using React with a focus on component reusability and performance.<br/>
+        -Implemented interactive elements such as a dynamic dock, window controls, and app-like navigation behavior.<br/>
+        -Created smooth animations and transitions to mimic native macOS user experience.<br/>
+        -Ensured responsive design and cross-device compatibility for a seamless browser-based desktop experience.<br/>
+        -Structured the frontend architecture for scalability and maintainability using modern React practices.`,
     },
     {
-        title: 'devLinks',
-        slug: 'devLinks',
-        techStack: ['Next.js', 'Formik', 'Drag & Drop', 'Tailwind CSS'],
-        thumbnail: '/projects/thumbnail/devLinks.jpg',
-        longThumbnail: '/projects/long/devLinks.jpg',
+        title: 'Figma',
+        slug: 'simple-figma',
+        techStack: ['JavaScript', 'HTML', 'Drag & Drop', 'CSS'],
+        thumbnail: '/projects/thumbnail/figma-proj.png',
+        longThumbnail: '/projects/long/figma-proj.png',
         images: [
-            '/projects/images/devLinks-1.png',
-            '/projects/images/devLinks-2.png',
-            '/projects/images/devLinks-3.png',
+            '/projects/images/figma-proj-1.png',
+            '/projects/images/figma-proj-2.png',
+            '/projects/images/figma-proj-3.png',
         ],
-        sourceCode: 'https://github.com/Tajmirul/devsLink',
-        liveUrl: 'https://devlinks-demo.vercel.app/auth/signin',
-        year: 2023,
-        description: `One of the most challenging projects in Frontend Mentor.<br/><br/>
-
-            I developed a LinkSharing App as part of the Frontend Mentor challenge, utilizing React, Redux, and Tailwind CSS to create a responsive and feature-rich platform. The app allows users to share, save, and explore links, with a focus on intuitive design and smooth navigation. Advanced state management ensures efficient data handling for user interactions.`,
-        role: ``,
+        sourceCode: 'https://github.com/MansiuR/SimpleFigmaProj',
+        liveUrl: 'https://simple-figma-proj.vercel.app/',
+        year: 2025,
+        description: `A browser-based Figma-inspired design editor that enables users to create, edit, and manage visual elements on a canvas. The application supports layering, drag-and-drop positioning, resizing, rotation, and property customization, along with export functionality, delivering a simplified yet powerful design tool experience.`,
+        role: `As the Frontend Developer, I:<br/>
+        -Built an interactive canvas editor using React, enabling users to create and manipulate shapes and text elements dynamically.<br/>
+        -Implemented core design tool features such as drag-and-drop, resizing, rotation, and layer management.<br/>
+       -Developed a properties panel for real-time editing of element attributes like size, color, text, and positioning.<br/>
+       -Designed a structured state management system to handle complex UI interactions and element hierarchy.<br/>
+    -Added export functionalities (JSON/HTML) to allow users to save and reuse their designs.<br/>
+    Ensured smooth user experience with responsive layout and precise interaction handling.`,
     },
 ];
 
 export const MY_EXPERIENCE = [
     {
-        title: 'React js Developer Intern ',
-        company: 'eTechno Lab',
-        duration: 'Mar 2025 - Aug 2025',
+        title: 'FULL STACK DEVELOPER (AI COHORT TRAINEE)',
+        company: 'Sheryians Coding School',
+        duration: 'Sep 2025 – Present',
+    },
+    {
+        title: 'JAVA DEVELOPER INTERN',
+        company: 'ISTUDIO, Pune',
+        duration: 'Aug 2025 – Jan 2026 (6 Months)',
+    },
+    {
+        title: 'JAVA DEVELOPER INTERN',
+        company: 'HULK-HIRE, Hyderabad',
+        duration: 'Apr 2025 – Jun 2025 (2 Months)',
     },
 ];
