@@ -58,11 +58,11 @@ const Preloader = () => {
                 <span className="inline-block translate-y-full">&apos;</span>
                 <span className="inline-block translate-y-full">M</span>
                 <span className="inline-block translate-y-full">&nbsp;</span>
+                <span className="inline-block translate-y-full">M</span>
                 <span className="inline-block translate-y-full">A</span>
-                <span className="inline-block translate-y-full">A</span>
-                <span className="inline-block translate-y-full">D</span>
+                <span className="inline-block translate-y-full">N</span>
+                <span className="inline-block translate-y-full">S</span>
                 <span className="inline-block translate-y-full">I</span>
-                <span className="inline-block translate-y-full">T</span>
             </p>
         </div>
     );
