@@ -26,10 +26,10 @@ export const MY_STACK = {
             name: 'JavaScript',
             icon: '/logo/js.png',
         },
-        // {
-        //     name: 'TypeScript',
-        //     icon: '/logo/ts.png',
-        // },
+        {
+            name: 'TypeScript',
+            icon: '/logo/ts.png',
+        },
         {
             name: 'React',
             icon: '/logo/react.png',
@@ -91,6 +91,10 @@ export const MY_STACK = {
         {
             name: 'Git',
             icon: '/logo/git.png',
+        },
+        {
+            name: 'AWS',
+            icon: '/logo/aws.png',
         },
     ],
 };

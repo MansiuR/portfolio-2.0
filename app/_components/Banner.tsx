@@ -50,10 +50,10 @@ const Banner = () => {
                         <span className="font-medium text-foreground">
                             MANSI
                         </span>
-                        . A dedicated Full Stack Developer with 0.7 years
-                        of experience in developing scalable, high-performance,
-                        and responsive web applications, combining efficient
-                        backend systems with intuitive frontend design.
+                        . A dedicated Full Stack Developer with 0.7 years of
+                        experience in developing scalable, high-performance, and
+                        responsive web applications, combining efficient backend
+                        systems with intuitive frontend design.
                     </p>
                     <Button
                         href={GENERAL_INFO.resumeUrl}
@@ -78,7 +78,7 @@ const Banner = () => {
                     </div>
                     <div className="slide-up-and-fade">
                         <h5 className="text-3xl sm:text-4xl font-anton text-primary mb-1.5">
-                            2
+                            3
                         </h5>
                         <p className="text-muted-foreground">
                             Completed Projects
