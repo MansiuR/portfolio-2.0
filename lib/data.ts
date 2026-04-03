@@ -135,7 +135,7 @@ Mongoose, Multer, Zod, JWT (with blacklisting), Google Gemini API, Puppeteer, CO
 
       `,
         role: `
-      Full Stack MERN Developer <br/>
+      Full Stack Developer <br/>
 Owned the entire Backend & frontend development process:
 <ul>
   <li>🎨 Designed and built all UI components using SCSS</li>

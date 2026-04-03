@@ -42,7 +42,7 @@ const Banner = () => {
             >
                 <div className="max-md:grow max-md:flex flex-col justify-center items-start max-w-[544px]">
                     <h1 className="banner-title slide-up-and-fade leading-[.95] text-6xl sm:text-[80px] font-anton">
-                        <span className="text-primary">Full Stack MERN </span>
+                        <span className="text-primary">Full Stack</span>
                         <br /> <span className="ml-4">DEVELOPER</span>
                     </h1>
                     <p className="banner-description slide-up-and-fade mt-6 text-lg text-muted-foreground">
@@ -50,7 +50,7 @@ const Banner = () => {
                         <span className="font-medium text-foreground">
                             MANSI
                         </span>
-                        . A dedicated Full Stack MERN Developer with 0.7 years
+                        . A dedicated Full Stack Developer with 0.7 years
                         of experience in developing scalable, high-performance,
                         and responsive web applications, combining efficient
                         backend systems with intuitive frontend design.
